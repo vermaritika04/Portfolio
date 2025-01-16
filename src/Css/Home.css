@@ -1,0 +1,141 @@
+.homeContainer{
+    margin: 3rem 6rem 3rem;
+    height: calc(100vh - 134px);
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+.homeContainer img{
+    min-width: 520px;
+    height: 100vh;
+    max-height: 850px;
+    position: absolute;
+    right: 6rem;
+    top: 0px;
+}
+
+.homeContainer h1{
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0px;
+    line-height: 1.5;
+}
+
+.myName{
+    font-size: 3.2rem;
+    margin: 0px;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.homeContainer h3{
+    font-size: 3rem;
+    margin: 0px;
+    font-weight: inherit;
+    line-height: 4rem;
+}
+
+.homeInfoContainer{
+    position: relative;
+    width:40%; 
+    min-width: 494px;
+}
+
+.connectIconscontainer{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.connectIconsDisplay{
+    font-size: 40px;
+}
+
+.connectIconsDisplay:hover{
+    transition: all 0.3s;
+    opacity: 0.5;
+}
+
+.homeContainer .space{
+    padding-right: 10px;
+}
+
+.homeInfoContainer img{
+    display: none;
+}
+
+@media (max-width: 1220px){
+
+    .homeInfoContainer{
+        margin: auto;
+    }
+
+    .homeContainer img{
+        display: none;
+    }
+
+    .homeInfoContainer img{
+        display: block;
+        position: absolute;
+        right: -80px;
+        top: calc(100% - 140px);
+        width: 70%;
+        height: fit-content !important;
+        min-width: 200px !important;
+        max-height: none !important;
+    }
+
+    .homeContainer .space{
+        padding-right: 5px;
+    }
+    
+}
+
+@media (max-width:680px){
+
+    .homeContainer{
+        margin: 2rem 6rem 3rem;
+    }
+
+    .homeInfoContainer{
+        min-width: 300px !important;
+    }
+
+    .homeContainer h3{
+        font-size: 1.8rem;
+        line-height: 1.3;
+    }
+
+    .myName{
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+
+    .connectIconsDisplay{
+        font-size: 1.5rem;
+    }
+
+    .connectIconscontainer{
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .homeInfoContainer img{
+        right: auto;
+        top: 100%;
+    }
+    
+}
+@media (max-width: 580px){
+
+    .homeContainer{
+        margin: 2rem 20px 3rem;
+    }
+
+}
+
+
