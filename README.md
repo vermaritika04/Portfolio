@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://anushaka.netlify.app/">Ritika Portfolio</a>
+  <a href="https://anushaka.netlify.app/">Ritika Verma's Portfolio</a>
 </h1>
 
 ## About
