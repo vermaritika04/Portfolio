@@ -6,7 +6,7 @@ import { AiFillLinkedin, AiFillMail } from "react-icons/ai"
 import { IconContext } from 'react-icons'
 import home from "../Images/home.svg"
 import cat from "../Images/codingcat.png"
-import linktree from "../Images/linktree.png" // Import your local Linktree image
+//import linktree from "../Images/linktree.png" // Import your local Linktree image
 
 const Home = () => {
   const homeStr = "I'm an aspiring Software Developer &|focused on building innovative and user-centric solutions";
@@ -31,13 +31,7 @@ const Home = () => {
             <a href="https://github.com/vermaritika04" target="_blank" rel="noreferrer"><FaGithubAlt /></a>
             <a href="https://www.linkedin.com/in/vermaritika04/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
             <a href="mailto:vermaritika3969@gmail.com"><AiFillMail /></a>
-            <a href="https://linktr.ee/vermaritika" target="_blank" rel="noreferrer">
-              <img
-                src={linktree}
-                alt="Linktree"
-                style={{ width: '24px', height: '24px', margin: '0 10px' }}
-              />
-            </a>
+            
           </IconContext.Provider>
         </div>
         <img src={cat} alt="home-cat" />
